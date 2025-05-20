@@ -1,0 +1,74 @@
+.intro {
+  max-width: 984px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro__title {
+  font-size: 54px;
+  max-width: 80%;
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+
+.intro__content {
+  max-width: 80%;
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.intro__quote {
+  max-width: 80%;
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 5px;
+  text-align: right;
+}
+
+.intro__info {
+  max-width: 80%;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__title {
+    font-size: 45px;
+    padding: 0 16px;
+  }
+
+  .intro__content,
+  .intro__info {
+    font-size: 24px;
+    padding: 0 16px;
+  }
+
+  .intro__quote {
+    padding: 0 16px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__title {
+    font-size: 32px;
+    padding: 0 12px;
+  }
+
+  .intro__content,
+  .intro__info {
+    font-size: 24px;
+    padding: 0 12px;
+  }
+
+  .intro__quote {
+    font-size: 16px;
+    padding: 0 12px;
+  }
+}

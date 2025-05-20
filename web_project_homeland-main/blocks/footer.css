@@ -1,0 +1,17 @@
+
+.footer {
+    max-width: 984px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer__copy {
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
